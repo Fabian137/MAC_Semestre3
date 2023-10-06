@@ -1,0 +1,26 @@
+on:
+  push:
+    paths:
+      - ProgramasEstructuradeDatos/Listas_circulares/circulares2.c  # Ruta relativa al archivo específico
+  pull_request:
+    paths:
+      - ProgramasEstructuradeDatos/Listas_circulares/circulares2.c # Ruta relativa al archivo específico
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Compilar el código, supongamos que produce un ejecutable "mi_programa"
+    - name: Compile code
+      run: gcc -o mi_programa archivo-especifico.c
+
+    # Ejecutar el ejecutable
+    - name: Run executable
+      run: ./mi_programa
+
+    # Otras tareas, como pruebas, análisis, etc.
+    - name: Run tests
+      run: ./tests.sh
