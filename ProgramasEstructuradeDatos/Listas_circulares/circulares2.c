@@ -6,7 +6,7 @@ struct Nodo{
     int info;
     struct Nodo *liga; 
 }; 
-// para prueba 2 en github actions -- 05/10/2023
+// para prueba 4 en github actions -- 05/10/2023
 //....
 //---
 
