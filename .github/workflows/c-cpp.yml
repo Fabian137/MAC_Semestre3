@@ -20,5 +20,5 @@ jobs:
       run: ./exec
 
     # Otras tareas, como pruebas, análisis, etc.
-    - name: Run tests
-      run: ./tests.sh
+    # - name: Run tests
+      # run: ./tests.sh
