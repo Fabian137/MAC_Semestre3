@@ -6,6 +6,7 @@ struct Nodo{
     int info;
     struct Nodo *liga; 
 }; 
+// para prueba 2 en github actions -- 05/10/2023
 
 void creacion_final(struct Nodo **P, struct Nodo **F, struct Nodo **Q); 
 
