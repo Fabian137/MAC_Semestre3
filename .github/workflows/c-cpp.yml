@@ -13,7 +13,7 @@ jobs:
 
     # Compilar el código, supongamos que produce un ejecutable "mi_programa"
     - name: Compile code
-      run: gcc -o exec circulares2.c
+      run: gcc -o exec ProgramasEstructuradeDatos/Listas_circulares/circulares2.c
 
     # Ejecutar el ejecutable
     - name: Run executable
