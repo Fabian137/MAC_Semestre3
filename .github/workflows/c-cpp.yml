@@ -1,10 +1,10 @@
 on:
   push:
     paths:
-      - ProgramasEstructuradeDatos/  # Ruta relativa al archivo específico
+      - ProgramasEstructuradeDatos/Listas_circulares/  # Ruta relativa al archivo específico
   pull_request:
     paths:
-      - ProgramasEstructuradeDatos/ # Ruta relativa al archivo específico
+      - ProgramasEstructuradeDatos/Listas_circulares/ # Ruta relativa al archivo específico
 
 jobs:
   build:
