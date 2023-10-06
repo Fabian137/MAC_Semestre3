@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - ProgramasEstructuradeDatos/Listas_circulares/  # Ruta relativa al archivo específico
+      - ProgramasEstructuradeDatos/Listas_circulares/circulares2.c  # Ruta relativa al archivo específico
   pull_request:
     paths:
       - ProgramasEstructuradeDatos/Listas_circulares/ # Ruta relativa al archivo específico
