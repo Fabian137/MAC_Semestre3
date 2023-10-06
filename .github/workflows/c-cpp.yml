@@ -17,7 +17,10 @@ jobs:
 
     # Ejecutar el ejecutable
     - name: Run executable
-      run: ./exec
+      run: ./exec < input.txt  # Donde "input.txt" contiene la entrada esperada
+      # - name: Run executable with input
+      # run: ./exec
+
 
     # Otras tareas, como pruebas, análisis, etc.
     # - name: Run tests
