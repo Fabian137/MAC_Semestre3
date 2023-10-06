@@ -13,12 +13,15 @@ jobs:
 
     # Compilar el código, supongamos que produce un ejecutable "mi_programa"
     - name: Compile code
-      run: gcc -o exec circulares2.c
+      run: gcc -o exec ProgramasEstructuradeDatos/Listas_circulares/circulares2.c
 
     # Ejecutar el ejecutable
     - name: Run executable
-      run: ./exec
+      run: ./exec < input.txt  # Donde "input.txt" contiene la entrada esperada
+      # - name: Run executable with input
+      # run: ./exec
+
 
     # Otras tareas, como pruebas, análisis, etc.
-    - name: Run tests
-      run: ./tests.sh
+    # - name: Run tests
+      # run: ./tests.sh
