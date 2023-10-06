@@ -6,6 +6,7 @@ Esto es agregado desde un fork. Y estamos ... : )
 Esta es una modificación hecha desde la pc de Fidel para generar situaciones hipotéticas jem. Fabián lo escribió
 ..
 
+Por fa que funcione mi action 
 
 Ahora esto es un cambio desde mi rama. **Fabian** **Cambio desde compu fidel**
 
