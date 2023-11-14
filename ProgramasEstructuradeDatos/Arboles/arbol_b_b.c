@@ -68,7 +68,7 @@ int main(){
             break;
 
             case 4:
-                printf("3. Impresión del árbol en distintos ordenes\n\n");
+                printf("Impresión del árbol en distintos ordenes\n\n");
                 if (arbol_vacio(&raiz)){
                     mensaje_arbol_vacio();
                 }else{
